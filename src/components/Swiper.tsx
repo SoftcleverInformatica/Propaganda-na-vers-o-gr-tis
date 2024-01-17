@@ -29,7 +29,7 @@ export const Slide = () => {
     }
 
     window.addEventListener('resize', updateSlidesPerView);
-    updateSlidesPerView(); // Chamada inicial para definir o número de slides
+    updateSlidesPerView();
 
     return () => {
       window.removeEventListener('resize', updateSlidesPerView);
@@ -42,9 +42,12 @@ export const Slide = () => {
       pagination={{ clickable: true }}
       scrollbar={{ draggable: true }}
       autoplay={{
-        delay: 2500, // Defina o intervalo desejado em milissegundos (3 segundos neste exemplo)
-        disableOnInteraction: false, // Permite que o autoplay continue mesmo se o usuário interagir com o Swiper
+        delay: 2500,
+        disableOnInteraction: false,
+        pauseOnMouseEnter: true,
+
       }}
+
       spaceBetween={100}
       slidesPerView={slidesPerView}
       className='sm:px-12'

@@ -44,7 +44,7 @@ export function Home() {
         </p>
         <p className='flex bg-dark_indigo rounded p-2 gap-2'>
           <BsFillCheckSquareFill className="text-3xl" />
-          Desenvolvemos soluções desde 1994.
+          Há quase 30 anos desenvolvendo soluções
         </p>
         <p className='flex bg-dark_indigo rounded p-2 gap-2'>
           <BsFillCheckSquareFill className="text-3xl" />

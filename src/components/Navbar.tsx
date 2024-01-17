@@ -11,7 +11,7 @@ export const Navbar = () => {
         lg:flex-row
         2lg:max-w-[1000px] 2lg:h-[15vh]'>
         <img src={LOGO} className='w-64' />
-        <h1 className='text-4xl font-bold text-center py-12 text-white'>Sírius PDV - Versão Simplificada</h1>
+        <h1 className='text-4xl font-bold text-center py-12 text-white'>Sírius PDV</h1>
 
         <a href='http://177.131.142.37:7001/' className='flex text-white gap-2 items-center bg-dark_indigo px-4 py-2 rounded-md'>
           Login
