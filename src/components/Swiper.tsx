@@ -45,9 +45,7 @@ export const Slide = () => {
         delay: 2500,
         disableOnInteraction: false,
         pauseOnMouseEnter: true,
-
       }}
-
       spaceBetween={100}
       slidesPerView={slidesPerView}
       className='sm:px-12'
