@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { BsClipboardCheckFill, BsClipboardDataFill, BsFillFileCheckFill, BsFillPhoneFill } from 'react-icons/bs';
 import { HiCash } from 'react-icons/hi';
 import { IoReceiptSharp } from 'react-icons/io5';
-import { MdLocalMall, MdOutlinePets } from 'react-icons/md';
+import { MdLocalMall, MdOutlinePets, MdDeliveryDining } from 'react-icons/md';
 import { PiCodepenLogoFill, PiSunglassesFill } from 'react-icons/pi';
 import { SiIfood } from 'react-icons/si';
 import { TbTruckDelivery, TbWorldCode } from 'react-icons/tb';
@@ -88,6 +88,9 @@ export const Slide = () => {
       </SwiperSlide>
       <SwiperSlide>
         <Card title='Sírius ERP' description='Sistema completo de gestão empresarial.' icon={TbWorldCode} />
+      </SwiperSlide>
+      <SwiperSlide>
+        <Card title='Sírius Cardápio Digital' description='Sistema de gerenciamento de restaurante com entrega de delivery' icon={MdDeliveryDining} />
       </SwiperSlide>
     </Swiper>
   );

@@ -34,9 +34,10 @@ export const Navbar = () => {
         <h1 className='text-4xl font-bold text-center py-12 text-white'>Sírius PDV</h1>
 
         <div className='flex flex-col-reverse justify-end items-end'>
-          {showMessage && <p className='text-dark_indigo font-bold mr-2'>Você está no período de teste</p>}
+          {showMessage && <p className='text-dark_indigo font-bold mr-2'>Você está na versão gratuita</p>}
           <a
-            href='http://pdv.softclever.com.br:7001/'
+            target='_self'
+            href='http://177.131.142.37:7003'
             className={`flex text-white gap-2 w-fit bg-dark_indigo px-4 py-2 rounded-md ${!linkEnabled && 'opacity-50 cursor-not-allowed'}`}
             onClick={(e) => !linkEnabled && e.preventDefault()}
           >
