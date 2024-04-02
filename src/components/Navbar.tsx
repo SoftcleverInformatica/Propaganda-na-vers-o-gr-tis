@@ -31,7 +31,7 @@ export const Navbar = () => {
         lg:flex-row
         2lg:max-w-[1000px] 2lg:h-[15vh]'>
         <img src={LOGO} className='w-64' />
-        <h1 className='text-4xl font-bold text-center py-12 text-white'>Sírius PDV</h1>
+        <h1 className='text-4xl font-bold text-center py-12 text-white'>Sirius PDV</h1>
 
         <div className='flex flex-col-reverse justify-end items-end'>
           {showMessage && <p className='text-dark_indigo font-bold mr-2'>Você está na versão gratuita</p>}

@@ -60,37 +60,37 @@ export const Slide = () => {
         <Card title='Sirius NFC-e Fiscal' description='Emissor de Cupom Fiscal Eletrônico homologado em todo o território nacional.' icon={BsClipboardDataFill} />
       </SwiperSlide>
       <SwiperSlide>
-        <Card title='Sírius Pré-Venda Safira' description='Estoque, Controle de Caixa, Financeiro Pagar e Receber, Compras, Troca de Mercadorias, Relatórios Gerenciais e muito mais.' icon={HiCash} />
+        <Card title='Sirius Pré-Venda Safira' description='Estoque, Controle de Caixa, Financeiro Pagar e Receber, Compras, Troca de Mercadorias, Relatórios Gerenciais e muito mais.' icon={HiCash} />
       </SwiperSlide>
       <SwiperSlide>
-        <Card title='Sírius APP Pré-venda' description='Pedido de venda através do celular.' icon={BsFillPhoneFill} />
+        <Card title='Sirius APP Pré-venda' description='Pedido de venda através do celular.' icon={BsFillPhoneFill} />
       </SwiperSlide>
       <SwiperSlide>
-        <Card title='Sírius Comanda' description='Comanda de venda através do computador.' icon={BsClipboardCheckFill} />
+        <Card title='Sirius Comanda' description='Comanda de venda através do computador.' icon={BsClipboardCheckFill} />
       </SwiperSlide>
       <SwiperSlide>
-        <Card title='Sírius APP Comanda' description='Comanda de venda através do celular.' icon={BsFillFileCheckFill} />
+        <Card title='Sirius APP Comanda' description='Comanda de venda através do celular.' icon={BsFillFileCheckFill} />
       </SwiperSlide>
       <SwiperSlide>
-        <Card title='Sírius WEB lojas' description='Tenha o controle de uma ou mais lojas através da WEB.' icon={MdLocalMall} />
+        <Card title='Sirius WEB lojas' description='Tenha o controle de uma ou mais lojas através da WEB.' icon={MdLocalMall} />
       </SwiperSlide>
       <SwiperSlide>
-        <Card title='Sírius Delivery' description='Controle das entregas para comércio em geral.' icon={TbTruckDelivery} />
+        <Card title='Sirius Delivery' description='Controle das entregas para comércio em geral.' icon={TbTruckDelivery} />
       </SwiperSlide>
       <SwiperSlide>
         <Card title='Integração com iFood' description='Agilidade nas vendas por aplicativo.' icon={SiIfood} />
       </SwiperSlide>
       <SwiperSlide>
-        <Card title='Sírius Óticas' description='Cadastro de laboratórios, oftalmologistas e afins.' icon={PiSunglassesFill} />
+        <Card title='Sirius Óticas' description='Cadastro de laboratórios, oftalmologistas e afins.' icon={PiSunglassesFill} />
       </SwiperSlide>
       <SwiperSlide>
-        <Card title='Sírius Pet Shop' description='Controle completo do Pet.' icon={MdOutlinePets} />
+        <Card title='Sirius Pet Shop' description='Controle completo do Pet.' icon={MdOutlinePets} />
       </SwiperSlide>
       <SwiperSlide>
-        <Card title='Sírius ERP' description='Sistema completo de gestão empresarial.' icon={TbWorldCode} />
+        <Card title='Sirius ERP' description='Sistema completo de gestão empresarial.' icon={TbWorldCode} />
       </SwiperSlide>
       <SwiperSlide>
-        <Card title='Sírius Cardápio Digital' description='Sistema de gerenciamento de restaurante com entrega de delivery' icon={MdDeliveryDining} />
+        <Card title='Sirius Cardápio Digital' description='Sistema de gerenciamento de restaurante com entrega de delivery' icon={MdDeliveryDining} />
       </SwiperSlide>
     </Swiper>
   );
